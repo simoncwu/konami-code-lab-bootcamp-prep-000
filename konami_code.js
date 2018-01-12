@@ -9,7 +9,7 @@ function init() {
     
     if (key == code[index]) {
       if (++index >= alphabet.length) {
-        window.alert();
+        alert();
       }
     } else {
       index = 0;
