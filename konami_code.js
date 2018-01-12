@@ -11,8 +11,10 @@ function init() {
       index ++;
       
       if (index >= alphabet.length) {
-        alert()
+        alert();
       }
+    } else {
+      index = 0;
     }
   });
 }
