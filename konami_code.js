@@ -10,6 +10,7 @@ function init() {
     if (key == code[index]) {
       if (++index >= alphabet.length) {
         alert();
+        index = 0;
       }
     } else {
       index = 0;
