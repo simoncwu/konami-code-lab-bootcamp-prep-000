@@ -9,7 +9,7 @@ function init() {
     
     if (key == code[index]) {
       if (++index >= alphabet.length) {
-        alert('a congratulatory message');
+        console.log('a congratulatory message');
       }
     } else {
       index = 0;
