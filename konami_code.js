@@ -8,8 +8,8 @@ function init() {
     const key = parseInt(e.detail || e.which);
     
     if (key == code[index]) {
-      if (++index >= alphabet.length) {
-        alert('');
+      if (++index >= code.length) {
+        alert(;
         index = 0;
       }
     } else {
